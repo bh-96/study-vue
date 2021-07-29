@@ -1,0 +1,11 @@
+# editorconfig: editor 나 IDE 툴에 관계없이 코드스타일을 유지하기 위한 설정 파일
+[*.{js,jsx,ts,tsx,vue}]
+# ident: 들여쓰기 -> space 2칸
+indent_style = space
+indent_size = 2
+# trim: 문자 앞에 공백 제거
+trim_trailing_whitespace = true
+# final: 파일 저장 시 파일의 끝은 새로운 줄로 끝냄
+insert_final_newline = true
+
+# editorconfig.org 사이트 참고

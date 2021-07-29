@@ -25,7 +25,7 @@
         />
       </div>
 
-      <v-spacer></v-spacer>
+      <v-spacer />
 
       <v-btn
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
@@ -49,17 +49,17 @@
         </v-list-item-content>
       </v-list-item>
 
-      <v-divider></v-divider>
+      <v-divider />
 
       <v-list
-          dense
-          nav
+        dense
+        nav
       >
         <v-list-item
-            v-for="item in items"
-            :key="item.title"
-            link
-            :to="item.to"
+          v-for="item in items"
+          :key="item.title"
+          link
+          :to="item.to"
         >
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
@@ -72,7 +72,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-main>
-      <router-view/>
+      <router-view />
     </v-main>
   </v-app>
 </template>
